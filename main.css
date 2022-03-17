@@ -13,7 +13,7 @@ html{
     height: -webkit-fill-available;
 }
 .bg-dark{
-    background: transparent !important;
+    background: black !important;
 }
 .bg-dark.scrolled{
     transition: 500ms ease !important;
