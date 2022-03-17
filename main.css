@@ -17,7 +17,7 @@ html{
 }
 .bg-dark.scrolled{
     transition: 500ms ease !important;
-    background: rgba(0,0,0,0) !important;
+    background: black !important;
 }
 .nav-brand-text, .nav-brand-text:hover{
     font-size: 1.1rem;
