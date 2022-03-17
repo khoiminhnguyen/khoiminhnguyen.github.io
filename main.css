@@ -17,7 +17,7 @@ html{
 }
 .bg-dark.scrolled{
     transition: 500ms ease !important;
-    background: rgba(0,0,0,0.95) !important;
+    background: rgba(0,0,0,0) !important;
 }
 .nav-brand-text, .nav-brand-text:hover{
     font-size: 1.1rem;
@@ -42,7 +42,7 @@ html{
 .nav-item-text{
     font-size: 1.1rem;
     text-decoration: underline  0.4rem transparent;
-    color: white;
+    color: white !important;
     transition: text-decoration-color 0.5s;
 }
 .nav-item-text:hover, .nav-item-text:visited{
