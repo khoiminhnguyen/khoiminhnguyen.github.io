@@ -1,0 +1,146 @@
+html, body{
+    scroll-behavior: smooth;
+    text-decoration-skip-ink: none !important;
+    word-wrap: break-word;
+}
+body{
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+html{
+    height: fill-available;
+    height: -webkit-fill-available;
+}
+.bg-dark{
+    background: transparent !important;
+}
+.bg-dark.scrolled{
+    transition: 500ms ease !important;
+    background: rgba(0,0,0,0.95) !important;
+}
+.nav-brand-text, .nav-brand-text:hover{
+    font-size: 1.1rem;
+    text-decoration: underline  0.4rem white;
+    color: white;
+}
+.dropdown .nav-link{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: underline  0.4rem transparent !important;
+    transition: text-decoration-color 0.5s !important;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+.dropdown-toggle:hover, .dropdown-toggle:visited .dropdown-toggle:active .drodown-toggle:focus{
+    font-size: 1.1rem;
+    text-decoration-color: white !important;
+    color: white !important;
+}
+.nav-item-text{
+    font-size: 1.1rem;
+    text-decoration: underline  0.4rem transparent;
+    color: white;
+    transition: text-decoration-color 0.5s;
+}
+.nav-item-text:hover, .nav-item-text:visited{
+    text-decoration-color: white !important;
+    color: white !important;
+}
+
+.subtitle{
+    color: white;
+    position: relative;
+    font-size: 10vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 10vh;
+    padding-bottom: 1vh;
+}
+
+.logo{
+    width: 40vh;
+    margin:0;
+    height: auto;
+    position: relative;
+}
+.bluebackground{
+    height:50vh;
+    background-color: #66b3ff;
+    background-size:cover;
+    background-position: center;
+    margin-top:-1px;
+}
+.nasabackground{
+    height:100vh;
+    background-image: url(nasabackground.jpg);
+    background-size:cover;
+    background-position: top;
+    margin-top:-1px;
+}
+.rivianbackground{
+    height:100vh;
+    background-image: url(rivianbackground.jpg);
+    background-size:cover;
+    background-position: 0% 0%;
+    margin-top:-1px;
+}
+.northropbackground{
+    height:100vh;
+    background-image: url(northropbackground.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top:-1px;
+}
+.l3background{
+    height:100vh;
+    background-image: url(l3background.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top:-1px;
+}
+
+.halfpagecontents{
+    height: 50vh;
+}
+
+.page1contents{
+    height: 100vh;
+}
+.page2black{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #000000;
+    margin:0;
+    color: white;
+}
+.page2tan{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #c49370;
+    margin:0;
+}
+.page2blue{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #BCC3CB;
+    margin:0;
+}
+.page2green{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #bdc9a1;
+    margin:0;
+}
+.page2white{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #FFFFFF;
+    margin:0;
+}
