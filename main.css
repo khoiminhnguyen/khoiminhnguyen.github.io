@@ -15,10 +15,6 @@ html{
 .bg-dark{
     background: black !important;
 }
-.bg-dark.scrolled{
-    transition: 500ms ease !important;
-    background: black !important;
-}
 .nav-brand-text, .nav-brand-text:hover{
     font-size: 1.1rem;
     text-decoration: underline  0.4rem white;
