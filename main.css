@@ -44,7 +44,7 @@ html, body{
 .subtitle{
     color: white;
     position: relative;
-    font-size: 5em;
+    font-size: 4.5em;
     font-family: 'Open Sans', sans-serif;
     line-height: 1em;
     padding-bottom: 0.5em;
@@ -77,7 +77,7 @@ html, body{
     height: 100%;
 }
 .rivianbackground{
-    height: 100%;
+    height: calc(100% +1px);
     width: 100%;
     background-image: url(rivianbackground.jpg);
     position: absolute;
