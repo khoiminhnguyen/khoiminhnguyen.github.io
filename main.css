@@ -13,7 +13,7 @@ html{
     height: -webkit-fill-available;
 }
 .bg-dark{
-    background: black !important;
+    background: white !important;
 }
 .nav-brand-text, .nav-brand-text:hover{
     font-size: 1.1rem;
