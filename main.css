@@ -2,12 +2,21 @@ html, body{
     scroll-behavior: smooth;
     text-decoration-skip-ink: none !important;
     word-wrap: break-word;
-    height: 100%;
 }
-.wrapper{
-    height: 100%;
+body{
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+html{
+    height: fill-available;
+    height: -webkit-fill-available;
 }
 .bg-dark{
+    background: black !important;
+}
+.bg-dark.scrolled{
+    transition: 500ms ease !important;
     background: black !important;
 }
 .nav-brand-text, .nav-brand-text:hover{
@@ -44,63 +53,52 @@ html, body{
 .subtitle{
     color: white;
     position: relative;
-    font-size: 4.5em;
+    font-size: 10vh;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1em;
-    padding-bottom: 0.5em;
+    line-height: 10vh;
+    padding-bottom: 1vh;
 }
 
-
 .logo{
-    width: 20em;
+    width: 40vh;
     margin:0;
     height: auto;
     position: relative;
 }
 .bluebackground{
-    height:50%;
-    width: 100%;
+    height:50vh;
     background-color: #66b3ff;
     background-size:cover;
     background-position: center;
+    margin-top:-1px;
 }
 .nasabackground{
-    height:100%;
-    width: 100%;
+    height:calc(100vh + 1px);
     background-image: url(nasabackground.jpg);
-    position: absolute;
     background-size:cover;
     background-position: top;
     margin-top:-1px;
 }
-.section{
-    height: 100%;
-}
 .rivianbackground{
-    height: calc(100% + 2px);
-    width: 100%;
+    height:calc(100vh + 1px);
     background-image: url(rivianbackground.jpg);
-    position: absolute;
     background-size:cover;
     background-position: 0% 0%;
+    margin-top:-1px;
 }
 .northropbackground{
+    height:calc(100vh + 1px);
     background-image: url(northropbackground.jpg);
-    height:100%;
-    width: 100%;
     background-size:cover;
-    position: absolute;
-    margin-top:-1px;
     background-position: center;
+    margin-top:-1px;
 }
 .l3background{
-    height:100%;
-    width: 100%;
-    position: absolute;
+    height:calc(100vh + 1px);
     background-image: url(l3background.jpg);
     background-size:cover;
     background-position: center;
-    margin-top: -1px;
+    margin-top:-1px;
 }
 
 .halfpagecontents{
@@ -108,42 +106,40 @@ html, body{
 }
 
 .page1contents{
-    height: auto !important;
-    position: relative;
-    bottom: 0px;
+    height: 100vh;
 }
 .page2black{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     height: auto;
     background-color: #000000;
     margin:0;
     color: white;
 }
 .page2tan{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     height: auto;
     background-color: #c49370;
     margin:0;
 }
 .page2blue{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     height: auto;
     background-color: #BCC3CB;
     margin:0;
 }
 .page2green{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     height: auto;
     background-color: #bdc9a1;
     margin:0;
 }
 .page2white{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     height: auto;
     background-color: #FFFFFF;
     margin:0;
