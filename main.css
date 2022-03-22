@@ -53,10 +53,10 @@ html{
 .subtitle{
     color: white;
     position: relative;
-    font-size: 6em;
+    font-size: 10vh;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1em;
-    padding-bottom: 0.5em;
+    line-height: 10vh;
+    padding-bottom: 1vh;
 }
 
 .logo{
