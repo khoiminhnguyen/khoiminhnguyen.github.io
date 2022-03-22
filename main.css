@@ -53,10 +53,10 @@ html{
 .subtitle{
     color: white;
     position: relative;
-    font-size: 10vh;
+    font-size: 6em;
     font-family: 'Open Sans', sans-serif;
-    line-height: 10vh;
-    padding-bottom: 1vh;
+    line-height: 1em;
+    padding-bottom: 0.5em;
 }
 
 .logo{
@@ -70,35 +70,36 @@ html{
     background-color: #66b3ff;
     background-size:cover;
     background-position: center;
-    margin-top:-1px;
 }
 .nasabackground{
-    height:calc(100vh + 1px);
+    height:calc(100% + 1px);
+    width: 100%;
     background-image: url(nasabackground.jpg);
     background-size:cover;
     background-position: top;
     margin-top:-1px;
 }
 .rivianbackground{
-    height:calc(100vh + 1px);
+    width: 100%;
     background-image: url(rivianbackground.jpg);
     background-size:cover;
     background-position: 0% 0%;
-    margin-top:-1px;
+    margin-top:1px;
 }
 .northropbackground{
-    height:calc(100vh + 1px);
+    width: 100%;
     background-image: url(northropbackground.jpg);
     background-size:cover;
     background-position: center;
     margin-top:-1px;
 }
 .l3background{
-    height:calc(100vh + 1px);
+    height:calc(100% + 1px);
+    width: 100%;
     background-image: url(l3background.jpg);
     background-size:cover;
     background-position: center;
-    margin-top:-1px;
+    margin-top: -1px;
 }
 
 .halfpagecontents{
