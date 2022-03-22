@@ -4,7 +4,9 @@ html, body{
     word-wrap: break-word;
     height: 100%;
 }
-
+.wrapper{
+    height: 100%;
+}
 .bg-dark{
     background: black !important;
 }
@@ -47,6 +49,7 @@ html, body{
     line-height: 10vh;
     padding-bottom: 1vh;
 }
+
 
 .logo{
     width: 40vh;
