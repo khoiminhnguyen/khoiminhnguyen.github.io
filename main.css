@@ -76,7 +76,7 @@ html{
     margin-top:-1px;
 }
 .rivianbackground{
-    height: calc(100% +1px);
+    height: 100%;
     background-image: url(rivianbackground.jpg);
     background-size:cover;
     background-position: 0% 0%;
@@ -101,9 +101,6 @@ html{
     height: 50vh;
 }
 
-.page1contents{
-    height: 100vh;
-}
 .page2black{
     padding-top: 6vh;
     padding-bottom: 6vh;
