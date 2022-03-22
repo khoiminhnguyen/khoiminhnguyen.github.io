@@ -64,33 +64,45 @@ html{
 }
 .bluebackground{
     height:50%;
+    width: 100%;
     background-color: #66b3ff;
     background-size:cover;
     background-position: center;
 }
 .nasabackground{
     height:100%;
+    width: 100%;
     background-image: url(nasabackground.jpg);
+    position: absolute;
     background-size:cover;
     background-position: top;
     margin-top:-1px;
 }
+.section{
+    height: 100%;
+}
 .rivianbackground{
     height: 100%;
+    width: 100%;
     background-image: url(rivianbackground.jpg);
+    position: absolute;
     background-size:cover;
     background-position: 0% 0%;
     margin-top:1px;
 }
 .northropbackground{
-    height:100%;
     background-image: url(northropbackground.jpg);
+    height:100%;
+    width: 100%;
     background-size:cover;
-    background-position: center;
+    position: absolute;
     margin-top:-1px;
+    background-position: center;
 }
 .l3background{
     height:100%;
+    width: 100%;
+    position: absolute;
     background-image: url(l3background.jpg);
     background-size:cover;
     background-position: center;
@@ -102,7 +114,9 @@ html{
 }
 
 .page1contents{
-    height: 100vh !important;
+    height: auto !important;
+    position: relative;
+    bottom: 0px;
 }
 .page2black{
     padding-top: 6vh;
