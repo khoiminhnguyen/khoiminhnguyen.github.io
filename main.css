@@ -5,7 +5,7 @@ html, body{
     height: 100%;
 }
 body{
-    min-height: 100vh;
+    min-height: 100%;
     min-height: fill-available;
     min-height: -webkit-fill-available;
 }
@@ -119,37 +119,37 @@ html{
     bottom: 0px;
 }
 .page2black{
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
     background-color: #000000;
     margin:0;
     color: white;
 }
 .page2tan{
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
     background-color: #c49370;
     margin:0;
 }
 .page2blue{
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
     background-color: #BCC3CB;
     margin:0;
 }
 .page2green{
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
     background-color: #bdc9a1;
     margin:0;
 }
 .page2white{
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
     background-color: #FFFFFF;
     margin:0;
