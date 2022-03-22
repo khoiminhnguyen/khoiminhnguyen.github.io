@@ -77,13 +77,12 @@ html, body{
     height: 100%;
 }
 .rivianbackground{
-    height: calc(100% + 1px);
+    height: calc(100% + 2px);
     width: 100%;
     background-image: url(rivianbackground.jpg);
     position: absolute;
     background-size:cover;
     background-position: 0% 0%;
-    margin-top:1px;
 }
 .northropbackground{
     background-image: url(northropbackground.jpg);
