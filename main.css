@@ -101,6 +101,9 @@ html{
     height: 50vh;
 }
 
+.page1contents{
+    height: 100vh !important;
+}
 .page2black{
     padding-top: 6vh;
     padding-bottom: 6vh;
