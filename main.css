@@ -58,7 +58,14 @@ html{
     line-height: 10vh;
     padding-bottom: 1vh;
 }
-
+.teslasubtitle{
+    color: black;
+    position: relative;
+    font-size: 10vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 10vh;
+    padding-bottom: 1vh;
+}
 .logo{
     width: 40vh;
     margin:0;
@@ -77,6 +84,13 @@ html{
     background-image: url(nasabackground.jpg);
     background-size:cover;
     background-position: top;
+    margin-top:-1px;
+}
+.teslabackground{
+    height:calc(100vh + 1px);
+    background-image: url(teslabackground.jpg);
+    background-size:cover;
+    background-position: 0% 0%;
     margin-top:-1px;
 }
 .rivianbackground{
