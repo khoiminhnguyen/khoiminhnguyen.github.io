@@ -122,6 +122,14 @@ html{
 .page1contents{
     height: 100vh;
 }
+.page2gray{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #bfc0c2;
+    margin:0;
+    color: white;
+}
 .page2black{
     padding-top: 6vh;
     padding-bottom: 6vh;
@@ -149,6 +157,13 @@ html{
     padding-bottom: 6vh;
     height: auto;
     background-color: #bdc9a1;
+    margin:0;
+}
+.page2greendark{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    height: auto;
+    background-color: #87a352;
     margin:0;
 }
 .page2white{
